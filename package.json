@@ -1,0 +1,50 @@
+{
+	"name": "packages-outdated",
+	"version": "1.0.0",
+	"description": "Check that all dependencies are up to date 🕵‍ 🕵‍",
+	"main": "lib/index.js",
+	"bin": "lib/index.js",
+	"author": "Tostée Lucas <lucas.tostee@gmail.com> (https://www.lucas-tostee.com)",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/luctst/packages-outdated"
+	},
+	"bugs": {
+		"url": "https://github.com/luctst/packages-outdated/issues"
+	},
+	"homepage": "https://github.com/luctst/packages-outdated",
+	"files": [
+		"lib/"
+	],
+	"engines": {
+		"node": ">= 10.0.0"
+	},
+	"eslintIgnore": [
+		"lib/build/"
+	],
+	"ava": {
+		"cache": true
+	},
+	"keywords": [],
+	"scripts": {
+		"test": "ava --verbose ./test/*.js",
+		"test:watch": "ava --watch --verbose --fail-fast ./test/*.js",
+		"lint": "npx eslint --cache './lib/**/*.js'",
+		"lint:watch": "esw -w --clear --color --cache './lib/**/*.js'",
+		"lint:fix": "npx eslint --fix './lib/**/*.js'",
+		"style": "prettier -c './lib/**/*.js'",
+		"style:fix": "prettier --c --write './lib/**/*.js'"
+	},
+	"devDependencies": {
+		"chalk": "2.4.2",
+		"ava": "2.2.0",
+		"eslint": "6.1.0",
+		"eslint-config-airbnb-base": "14.0.0",
+		"eslint-config-prettier": "6.0.0",
+		"eslint-plugin-import": "2.18.2",
+		"eslint-plugin-prettier": "3.1.0",
+		"eslint-watch": "6.0.0",
+		"prettier": "1.18.2"
+	}
+}
