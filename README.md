@@ -12,6 +12,8 @@
 ## Usage
 In this section you can write some popular examples about how you can interact with the project. It's advisable to write some code here.
 
+> **Note** - You need node >= 10.0.0 to run this module.
+
 ## API
 You have a small project or you'll like to share the API of your project ? This is where it's happen.
 
