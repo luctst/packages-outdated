@@ -26,7 +26,13 @@
 	"ava": {
 		"cache": true
 	},
-	"keywords": [],
+	"keywords": [
+		"packages",
+		"packages-outdated",
+		"npm-packages",
+		"check-packages",
+		"es6"
+	],
 	"scripts": {
 		"test": "ava --verbose ./test/*.js",
 		"test:watch": "ava --watch --verbose --fail-fast ./test/*.js",
