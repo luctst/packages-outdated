@@ -1,6 +1,6 @@
 {
 	"name": "packages-outdated",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "Check that all dependencies are up to date 🕵‍ 🕵‍",
 	"main": "lib/index.js",
 	"bin": "lib/index.js",
