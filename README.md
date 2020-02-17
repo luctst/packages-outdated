@@ -1,6 +1,6 @@
 <div align="center">
   <a href="#">
-  	<img src="./img/manyprojects.gif" alt="Logo project" height="160" />
+  	<img src="./img/manyprojects.gif" alt="Logo project" height="300" />
   </a>
   <br>
   <br>
