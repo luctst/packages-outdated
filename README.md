@@ -1,7 +1,4 @@
 <div align="center">
-  <a href="#">
-  	<img src="./img/manyprojects.gif" alt="Logo project" height="300" />
-  </a>
   <br>
   <br>
   <p>
@@ -19,7 +16,6 @@
 [![devDependencies Status](https://david-dm.org/luctst/packages-outdated/dev-status.svg?style=flat-square)](https://david-dm.org/luctst/packages-outdated?type=dev)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Twitter](https://img.shields.io/twitter/follow/luctstt.svg?label=Follow&style=social)](https://twitter.com/luctstt)
-
   </p>
 </div>
 
